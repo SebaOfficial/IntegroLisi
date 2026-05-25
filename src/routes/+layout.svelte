@@ -3,6 +3,7 @@
 	import favicon from '$lib/assets/favicon.png';
 	import Header from '$lib/components/common/Header.svelte';
 	import Footer from '$lib/components/common/Footer.svelte';
+	import { dev } from '$app/environment';
 
 	const { children } = $props();
 </script>
@@ -20,6 +21,11 @@
 
 	<Footer />
 </div>
+
+{#if !dev}
+	<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+	<script async src="https://scripts.simpleanalyticscdn.com/auto-events.js"></script>
+{/if}
 
 <style>
 	:global(body) {
