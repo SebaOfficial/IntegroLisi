@@ -1,4 +1,8 @@
 {
+	"seo": {
+		"title": "Contatti",
+		"description": "Contatta IntegroLisi Studio di Psicoterapia e Neurofeedback a Piossasco, Torino della dottoressa Aurora Lisi. Prenota un colloquio conoscitivo con i nostri esperti per iniziare il tuo percorso di benessere mentale."
+	},
 	"hero": {
 		"tagline": "Contatti",
 		"title": "Un primo <em class=\"text-gold\">passo</em>, con cura.",
@@ -7,7 +11,7 @@
 	"info": {
 		"practice": "Studio",
 		"contact": {
-			"title":"Riferimenti",
+			"title": "Riferimenti",
 			"phone": "Telefono",
 			"email": "Email",
 			"pec": "PEC"
