@@ -9,7 +9,7 @@
 	<div class="mx-auto grid max-w-7xl items-center gap-12 px-6 md:px-8 lg:grid-cols-5 lg:gap-20">
 		<div class="lg:col-span-2">
 			<enhanced:img
-				alt={$t('home.founder.img.alt')}
+				alt={$t('home.founder.image.alt')}
 				loading="lazy"
 				width="1088"
 				height="1344"
