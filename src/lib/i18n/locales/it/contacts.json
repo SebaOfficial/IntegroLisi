@@ -1,0 +1,50 @@
+{
+	"hero": {
+		"tagline": "Contatti",
+		"title": "Un primo <em class=\"text-gold\">passo</em>, con cura.",
+		"description": "Scrivici per fissare un primo colloquio conoscitivo. Risponderemo personalmente entro 48 ore lavorative, con la riservatezza che questo gesto merita."
+	},
+	"info": {
+		"practice": "Studio",
+		"contact": {
+			"title":"Riferimenti",
+			"phone": "Telefono",
+			"email": "Email",
+			"pec": "PEC"
+		}
+	},
+	"form": {
+		"inputs": {
+			"name": "Nome e cognome",
+			"reason": "Motivo del contatto",
+			"message": {
+				"label": "Messaggio",
+				"placeholder": "Raccontaci brevemente cosa ti ha portato qui."
+			}
+		},
+		"submit": "Invia richiesta",
+		"privacy": [
+			"Ho letto l'",
+			"Informativa Privacy",
+			"e acconsento al trattamento dei dati ai sensi del Reg. UE 2016/679."
+		],
+		"reasons": {
+			"general": {
+				"label": "Ho una domanda generale",
+				"template": "Salve, mi chiamo {{name}} e ho una domanda: {{message}}"
+			},
+			"partnership": {
+				"label": "Sono interessato a una partnership",
+				"template": "Salve, mi chiamo {{name}} e sono interessato a una partnership\n{{message}}"
+			},
+			"appointment": {
+				"label": "Vorrei fissare un appuntamento",
+				"template": "Salve, mi chiamo {{name}} e vorrei fissare un appuntamento\n{{message}}"
+			},
+			"other": {
+				"label": "Altro",
+				"template": "Salve, mi chiamo {{name}} e scrivo per {{message}}"
+			}
+		}
+	}
+}

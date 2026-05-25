@@ -28,6 +28,12 @@ const config: Config = {
 			routes: ['/'],
 			loader: async () => (await import('./locales/it/home.json')).default,
 		},
+		{
+			locale: 'it',
+			key: 'contacts',
+			routes: ['/contatti'],
+			loader: async () => (await import('./locales/it/contacts.json')).default,
+		},
 	],
 };
 
@@ -37,6 +43,8 @@ export const pathnameToKey = (pathname: string) => {
 	switch (pathname) {
 		case '/':
 			return 'home';
+		case '/contatti':
+			return 'contacts';
 		default:
 			return pathname.slice(1).replace(/\//g, '-');
 	}

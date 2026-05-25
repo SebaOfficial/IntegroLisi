@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { t } from '$lib/i18n';
-	import config from '$lib/config';
+	import Map from '$lib/components/common/Map.svelte';
 </script>
 
 <section class="bg-sand py-24 md:py-28">
@@ -19,16 +19,7 @@
 
 		<div class="overflow-hidden rounded-3xl border border-charcoal/10 shadow-lg">
 			<div class="relative aspect-video w-full">
-				<iframe
-					src={config.googleMapsEmbedUrl}
-					width="600"
-					height="450"
-					class="absolute inset-0 h-full w-full"
-					allowfullscreen
-					loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"
-					title={$t('home.map.iframe.title')}
-				></iframe>
+				<Map />
 			</div>
 		</div>
 	</div>

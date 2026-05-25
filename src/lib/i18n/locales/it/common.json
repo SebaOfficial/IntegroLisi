@@ -1,5 +1,4 @@
 {
-	"name": "IntegroLisi",
 	"navigation": {
 		"links": {
 			"home": "Home",
@@ -8,5 +7,8 @@
 			"neurofeedback": "Neurofeedback",
 			"faq": "FAQ"
 		}
+	},
+	"map": {
+		"title": "Mappa dello studio IntegroLisi - Via Musinè 14, Piossasco"
 	}
 }

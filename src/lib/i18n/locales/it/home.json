@@ -46,10 +46,7 @@
 	"map": {
 		"tagline": "Dove siamo",
 		"title": "Trova lo studio",
-		"description": "Lo studio IntegroLisi si trova a Piossasco (TO), in un ambiente riservato e accogliente, facilmente raggiungibile.",
-		"iframe": {
-			"title": "Mappa dello studio IntegroLisi - Via Musinè 14, Piossasco"
-		}
+		"description": "Lo studio IntegroLisi si trova a Piossasco (TO), in un ambiente riservato e accogliente, facilmente raggiungibile."
 	},
 	"cta": {
 		"title": "Pronto a iniziare il tuo percorso di integrazione?",

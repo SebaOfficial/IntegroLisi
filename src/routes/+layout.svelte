@@ -14,7 +14,7 @@
 	let key = $derived(pathnameToKey(page.url.pathname));
 
 	const seo = $derived({
-		title: `${$t(`${key}.seo.title`)} | ${$t('common.name')}`,
+		title: `${$t(`${key}.seo.title`)} | ${$t('app.name.0') + $t('app.name.1')}`,
 		description: $t(`${key}.seo.description`),
 		canonical: `${config.baseUrl}${page.url.pathname}`,
 	});

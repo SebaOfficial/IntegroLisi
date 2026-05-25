@@ -27,3 +27,7 @@
 		color: var(--gold);
 	}
 }
+
+.line {
+	@apply w-full h-px opacity-45 bg-[linear-gradient(90deg,transparent_0%,var(--gold)_50%,transparent_100%)];
+}
