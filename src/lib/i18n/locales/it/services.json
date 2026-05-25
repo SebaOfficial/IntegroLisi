@@ -1,0 +1,46 @@
+{
+	"seo": {
+		"title": "Ambiti d'intervento",
+		"description": "Scopri i nostri servizi e percorsi terapeutici personalizzati per il benessere emotivo, cognitivo e relazionale. Contattaci per una consulenza."
+	},
+	"intro": {
+		"tagline": "Ambiti di intervento",
+		"title": "Servizi e percorsi terapeutici",
+		"description": "Offriamo percorsi personalizzati per sostenere il benessere emotivo, cognitivo e relazionale. Scopri le nostre aree di intervento e contattaci per una consulenza."
+	},
+	"list": [
+		{
+			"title": "Psicoterapia individuale",
+			"description": "Percorsi individuali mirati a elaborare difficoltà emotive, relazionali e comportamentali con approcci evidence-based.",
+			"link": {
+				"label": "Scopri di più",
+				"url": "/ambiti-intervento/psicoterapia"
+			}
+		},
+		{
+			"title": "Sedute di neurofeedback",
+			"description": "Trattamenti di neurofeedback per il potenziamento dell'attenzione, della regolazione emotiva e delle performance cognitive.",
+			"link": {
+				"label": "Scopri di più",
+				"url": "/ambiti-intervento/neurofeedback"
+			}
+		},
+		{
+			"title": "Supporto all'ansia",
+			"description": "Interventi specifici per la gestione di attacchi d'ansia, fobie, panico e per il miglioramento della resilienza quotidiana."
+		},
+		{
+			"title": "Attenzione e focus",
+			"description": "Programmi dedicati a difficoltà attentive, disturbi dell'attenzione e potenziamento cognitivo per adulti e adolescenti."
+		},
+		{
+			"title": "Cura degli Acufeni",
+			"description": "Percorsi integrati per ridurre l'impatto degli acufeni sulla qualità della vita attraverso strategie di coping e riabilitazione."
+		},
+		{
+			"title": "Valutazione e diagnosi",
+			"description": "Valutazioni cliniche e neuropsicologiche per definire un percorso terapeutico personalizzato e basato sui bisogni."
+		}
+	],
+	"cta": "Prenota una consulenza"
+}

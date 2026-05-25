@@ -84,13 +84,13 @@
 	<label class="flex items-start gap-3 text-sm text-charcoal/75">
 		<input type="checkbox" class="mt-1 accent-gold" name="consent" required />
 		<span>
-			{$t('contacts.form.privacy.0')}<a
+			{$t('contacts.form.privacy')[0]}<a
 				href={resolve('/privacy-policy')}
 				class="underline decoration-gold/60 underline-offset-4 hover:text-gold"
 			>
-				{$t('contacts.form.privacy.1')}
+				{$t('contacts.form.privacy')[1]}
 			</a>
-			{$t('contacts.form.privacy.2')}
+			{$t('contacts.form.privacy')[2]}
 		</span>
 	</label>
 	<button

@@ -40,6 +40,12 @@ const config: Config = {
 			routes: ['/faq'],
 			loader: async () => (await import('./locales/it/faq.json')).default,
 		},
+		{
+			locale: 'it',
+			key: 'services',
+			routes: ['/ambiti-intervento/'],
+			loader: async () => (await import('./locales/it/services.json')).default,
+		},
 	],
 	preprocess: 'preserveArrays',
 };
@@ -54,6 +60,8 @@ export const pathnameToKey = (pathname: string) => {
 			return 'contacts';
 		case '/faq':
 			return 'faq';
+		case '/ambiti-intervento/':
+			return 'services';
 		default:
 			return pathname.slice(1).replace(/\//g, '-');
 	}
