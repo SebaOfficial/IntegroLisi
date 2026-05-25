@@ -1,0 +1,50 @@
+{
+	"hero": {
+		"tagline": "Restauro · Integrazione · Resilienza",
+		"title": "Ogni <span class=\"italic\">frattura</span> può diventare parte di un <span class=\"text-gold\">tutto</span> più forte.",
+		"description": "IntegroLisi è lo studio della Dr.ssa Aurora Lisi: psicoterapia clinica e neurofeedback si integrano per accompagnarti verso una nuova integrità emotiva, con rigore scientifico e calore umano.",
+		"image": {
+			"alt": "Ciotola in ceramica restaurata con la tecnica giapponese del Kintsugi — metafora del processo terapeutico"
+		},
+		"buttons": {
+			"book": "Prenota un colloquio",
+			"more": "Scopri di più"
+		}
+	},
+	"philosophy": {
+		"tagline": "La nostra filosofia",
+		"title": "Curare significa integrare, non cancellare.",
+		"quote": "«Nel Kintsugi, le ceramiche rotte non vengono nascoste: le fratture vengono ricomposte con oro, perché ciò che è stato ferito diventa più prezioso.»",
+		"description": "Nella nostra pratica clinica le ferite psicologiche non sono difetti da eliminare, ma frammenti di una storia che chiede di essere integrata. Unendo la profondità della psicoterapia alla precisione del neurofeedback, accompagniamo la persona verso una forma di sé più consapevole, regolata e autentica."
+	},
+	"founder": {
+		"tagline": "Fondatrice",
+		"title": "Dr.ssa Aurora Lisi",
+		"quote": "«Credo che curare sia un atto di restituzione: riconoscere il filo di autenticità che, nonostante le ferite, non si è mai spezzato.»",
+		"description": "Psicologa psicoterapeuta specializzata in trauma e regolazione neurobiologica, integra la pratica clinica con il neurofeedback per offrire un percorso unico, fondato sull'evidenza scientifica e su una profonda etica della relazione.",
+		"image": {
+			"alt": "Ritratto della Dr.ssa Aurora Lisi, psicoterapeuta e fondatrice di IntegroLisi"
+		},
+		"order_number": {
+			"title": "Iscrizione",
+			"description": "Albo Psicologi n. {{ORDER_NUMBER}}"
+		},
+		"specialization": {
+			"title": "Specializzazione",
+			"description": "Psicoterapia & Neurofeedback"
+		},
+		"areas": {
+			"title": "Aree",
+			"description": "Trauma, ansia, burnout"
+		},
+		"more": "Scopri di più"
+	},
+	"cta": {
+		"title": "Pronto a iniziare il tuo percorso di integrazione?",
+		"description": "Un primo colloquio conoscitivo, riservato e senza impegno, per valutare insieme il percorso più adatto a te.",
+		"buttons": {
+			"book": "Prenota un colloquio",
+			"services": "Vedi i servizi"
+		}
+	}
+}

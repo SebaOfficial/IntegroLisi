@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+:root {
+	--ivory: oklch(98.4% 0.004 85);
+	--sand: oklch(95.1% 0.009 80);
+	--gold: oklch(74% 0.085 80);
+	--charcoal: oklch(31% 0.005 60);
+	--background: var(--ivory);
+	--foreground: var(--charcoal);
+	--border: oklch(31% 0.005 60/0.1);
+}
+
+@theme {
+	--color-ivory: var(--ivory);
+	--color-sand: var(--sand);
+	--color-gold: var(--gold);
+	--color-charcoal: var(--charcoal);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-border: var(--border);
+}
+
+@layer utilities {
+	.text-gold {
+		color: var(--gold);
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"navigation": {
+		"links": {
+			"home": "Home",
+			"about": "Lo Studio",
+			"psychotherapy": "Psicoterapia",
+			"neurofeedback": "Neurofeedback",
+			"faq": "FAQ"
+		}
+	}
+}
