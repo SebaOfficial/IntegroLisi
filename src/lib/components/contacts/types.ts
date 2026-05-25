@@ -19,7 +19,7 @@ export interface TextAreaInput extends BaseInput {
 export interface SelectionInput extends BaseInput {
 	type: 'selection';
 	options: { label: string; value: string }[];
-	defaultOption: number;
+	selected: string;
 }
 
 export type Input = TextInput | TextAreaInput | SelectionInput;

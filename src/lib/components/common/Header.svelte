@@ -60,7 +60,7 @@
 					{/each}
 
 					<a
-						href={resolve('/contatti')}
+						href={resolve('/contatti?reason=appointment')}
 						class="
 							hover:bg-terracotta rounded-full bg-charcoal px-5 py-2.5
 							text-center text-xs tracking-widest text-ivory

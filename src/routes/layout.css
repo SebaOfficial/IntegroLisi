@@ -29,5 +29,5 @@
 }
 
 .line {
-	@apply w-full h-px opacity-45 bg-[linear-gradient(90deg,transparent_0%,var(--gold)_50%,transparent_100%)];
+	@apply h-px w-full bg-[linear-gradient(90deg,transparent_0%,var(--gold)_50%,transparent_100%)] opacity-45;
 }

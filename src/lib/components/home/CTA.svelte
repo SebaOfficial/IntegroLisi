@@ -24,7 +24,7 @@
 			</p>
 			<div class="flex flex-col justify-center gap-4 sm:flex-row">
 				<a
-					href={resolve('/contatti')}
+					href={resolve('/contatti?reason=appointment')}
 					class="rounded-full bg-gold px-10 py-4 text-sm font-semibold tracking-wide text-charcoal transition-colors hover:bg-ivory"
 				>
 					{$t('home.cta.buttons.book')}

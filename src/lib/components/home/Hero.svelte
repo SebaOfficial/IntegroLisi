@@ -21,7 +21,7 @@
 			</p>
 			<div class="flex flex-wrap gap-4">
 				<a
-					href={resolve('/contatti')}
+					href={resolve('/contatti?reason=appointment')}
 					class="rounded-full bg-charcoal px-8 py-4 text-sm font-medium tracking-wide text-ivory shadow-lg shadow-charcoal/10 transition-colors hover:bg-gold"
 				>
 					{$t('home.hero.buttons.book')}

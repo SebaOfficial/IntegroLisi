@@ -6,11 +6,20 @@
 	type Props = {
 		onsubmit: (inputsData: Record<string, string>) => void;
 		inputs: Input[];
+		onChange?: (name: string, value: string) => void;
 	};
 
-	const { onsubmit, inputs }: Props = $props();
+	const { onsubmit, onChange, inputs = $bindable() }: Props = $props();
 
 	let inputsData: Record<string, string> = $state({});
+
+	$effect(() => {
+		for (const input of inputs) {
+			if (input.type === 'selection' && inputsData[input.name] !== input.selected) {
+				inputsData[input.name] = input.selected;
+			}
+		}
+	});
 </script>
 
 <form
@@ -45,13 +54,14 @@
 			{:else if input.type == 'selection'}
 				<select
 					bind:value={inputsData[input.name]}
+					onchange={(event) => onChange?.(input.name, event.currentTarget.value)}
 					name={input.name}
 					id={input.name}
 					required={input.required}
 					class="w-full rounded-xl border border-charcoal/15 bg-ivory px-4 py-3 text-sm focus:border-gold focus:outline-none"
 				>
-					{#each input.options as option, i (option.value)}
-						<option value={option.value} selected={i === input.defaultOption}>
+					{#each input.options as option (option.value)}
+						<option value={option.value}>
 							{option.label}
 						</option>
 					{/each}

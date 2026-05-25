@@ -13,8 +13,9 @@
 
 	let key = $derived(pathnameToKey(page.url.pathname));
 
+	const siteName = $derived($t('app.name.0') + $t('app.name.1'));
 	const seo = $derived({
-		title: `${$t(`${key}.seo.title`)} | ${$t('app.name.0') + $t('app.name.1')}`,
+		title: `${$t(`${key}.seo.title`)} | ${siteName}`,
 		description: $t(`${key}.seo.description`),
 		canonical: `${config.baseUrl}${page.url.pathname}`,
 	});
@@ -34,7 +35,7 @@
 		url: seo.canonical,
 		type: 'website',
 		// TODO: add page-specific images
-		site_name: $t('common.name'),
+		site_name: siteName,
 	}}
 	twitter={{
 		card: 'summary_large_image',
@@ -45,7 +46,7 @@
 	jsonLd={{
 		'@context': 'https://schema.org',
 		'@type': 'MedicalBusiness',
-		name: $t('common.name'),
+		name: siteName,
 		description: $t('footer.description'),
 		url: config.baseUrl,
 		telephone: config.phone,
