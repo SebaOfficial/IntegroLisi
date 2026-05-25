@@ -68,6 +68,9 @@ importers:
       svelte-check:
         specifier: ^4.4.8
         version: 4.4.8(picomatch@4.0.4)(svelte@5.55.9(@typescript-eslint/types@8.59.4))(typescript@6.0.3)
+      svelte-seo:
+        specifier: ^2.0.0
+        version: 2.0.0(svelte@5.55.9(@typescript-eslint/types@8.59.4))
       sveltekit-i18n:
         specifier: ^2.4.2
         version: 2.4.2(svelte@5.55.9(@typescript-eslint/types@8.59.4))
@@ -1247,6 +1250,9 @@ packages:
     resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
     engines: {node: '>=6'}
 
+  schema-dts@1.1.5:
+    resolution: {integrity: sha512-RJr9EaCmsLzBX2NDiO5Z3ux2BVosNZN5jo0gWgsyKvxKIUL5R3swNvoorulAeL9kLB0iTSX7V6aokhla2m7xbg==}
+
   semver@7.8.1:
     resolution: {integrity: sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==}
     engines: {node: '>=10'}
@@ -1296,6 +1302,11 @@ packages:
     resolution: {integrity: sha512-T6mqZrySltPCDwfKXWQ6zehipVLk4GWfH1zCMGgRtLlOIFPuw58ZxVYxVvotMJgJaurKi1i14viB2GIRKXeJTQ==}
     peerDependencies:
       svelte: ^3.0.0 || ^4.0.0 || ^5.0.0-next.1
+
+  svelte-seo@2.0.0:
+    resolution: {integrity: sha512-taLhDc7tqxKLhUlVEqzK4McowtQtmCtyJFs4cuH68rBWJF9TYBpIkjWQM6mnOIu9Zxq9jqMO+EvRqiNK4TzADw==}
+    peerDependencies:
+      svelte: '5'
 
   svelte@5.55.9:
     resolution: {integrity: sha512-fTjjT8cHLDwigcu2j3pv7Jq04LklXevPB8uBgyHNiTXv+RMNvVnrjS4UEYrLMkhuq1vpCodHjiW+z/95SDs/fg==}
@@ -2396,6 +2407,8 @@ snapshots:
     dependencies:
       mri: 1.2.0
 
+  schema-dts@1.1.5: {}
+
   semver@7.8.1: {}
 
   set-cookie-parser@3.1.0: {}
@@ -2471,6 +2484,11 @@ snapshots:
 
   svelte-parse-markup@0.1.5(svelte@5.55.9(@typescript-eslint/types@8.59.4)):
     dependencies:
+      svelte: 5.55.9(@typescript-eslint/types@8.59.4)
+
+  svelte-seo@2.0.0(svelte@5.55.9(@typescript-eslint/types@8.59.4)):
+    dependencies:
+      schema-dts: 1.1.5
       svelte: 5.55.9(@typescript-eslint/types@8.59.4)
 
   svelte@5.55.9(@typescript-eslint/types@8.59.4):

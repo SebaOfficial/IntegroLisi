@@ -32,3 +32,12 @@ const config: Config = {
 };
 
 export const { t, locale, locales, loading, loadTranslations } = new i18n(config);
+
+export const pathnameToKey = (pathname: string) => {
+	switch (pathname) {
+		case '/':
+			return 'home';
+		default:
+			return pathname.slice(1).replace(/\//g, '-');
+	}
+};
