@@ -37,7 +37,7 @@
 					</span>
 					<span class="text-sm font-medium">
 						{$t('home.founder.order_number.description', {
-							ORDER_NUMBER: config.orderNumber
+							ORDER_NUMBER: config.orderNumber,
 							// eslint-disable-next-line @typescript-eslint/no-explicit-any
 						} as any)}
 					</span>

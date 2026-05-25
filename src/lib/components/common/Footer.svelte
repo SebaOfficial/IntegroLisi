@@ -48,7 +48,7 @@
 				{@html $t('footer.copyright', {
 					YEAR: new Date().getFullYear(),
 					VAT_NUMBER: config.vatNumber,
-					ORDER_NUMBER: config.orderNumber
+					ORDER_NUMBER: config.orderNumber,
 					// eslint-disable-next-line @typescript-eslint/no-explicit-any
 				} as any)}
 			</p>
