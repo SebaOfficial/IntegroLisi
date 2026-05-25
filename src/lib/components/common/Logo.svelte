@@ -11,5 +11,5 @@
 	href={resolve('/')}
 	aria-current={page.url.pathname === '/' ? 'page' : undefined}
 >
-	{$t('app.name.0')}<span class="text-gold italic">{$t('app.name.1')}</span>
+	{$t('app.name')[0]}<span class="text-gold italic">{$t('app.name')[1]}</span>
 </a>

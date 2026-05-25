@@ -13,7 +13,7 @@
 
 	let key = $derived(pathnameToKey(page.url.pathname));
 
-	const siteName = $derived($t('app.name.0') + $t('app.name.1'));
+	const siteName = $derived($t('app.name').join(''));
 	const seo = $derived({
 		title: `${$t(`${key}.seo.title`)} | ${siteName}`,
 		description: $t(`${key}.seo.description`),

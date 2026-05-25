@@ -34,7 +34,14 @@ const config: Config = {
 			routes: ['/contatti'],
 			loader: async () => (await import('./locales/it/contacts.json')).default,
 		},
+		{
+			locale: 'it',
+			key: 'faq',
+			routes: ['/faq'],
+			loader: async () => (await import('./locales/it/faq.json')).default,
+		},
 	],
+	preprocess: 'preserveArrays',
 };
 
 export const { t, locale, locales, loading, loadTranslations } = new i18n(config);
@@ -45,6 +52,8 @@ export const pathnameToKey = (pathname: string) => {
 			return 'home';
 		case '/contatti':
 			return 'contacts';
+		case '/faq':
+			return 'faq';
 		default:
 			return pathname.slice(1).replace(/\//g, '-');
 	}

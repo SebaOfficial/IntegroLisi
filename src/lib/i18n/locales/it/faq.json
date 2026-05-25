@@ -1,0 +1,36 @@
+{
+	"seo": {
+		"title": "FAQ",
+		"description": "Le risposte alle curiosità più comuni. Per qualunque altra domanda, scrivici: ogni percorso comincia da un dubbio condiviso."
+	},
+	"intro": {
+		"title": "Domande <em class=\"text-gold\">frequenti</em>.",
+		"description": "Le risposte alle curiosità più comuni. Per qualunque altra domanda, scrivici: ogni percorso comincia da un dubbio condiviso."
+	},
+	"questions": [
+		{
+			"title": "Come si svolge il primo colloquio?",
+			"description": "Il primo incontro è uno spazio di ascolto in cui ci raccontiamo a vicenda. Dura circa 60 minuti e serve a comprendere il motivo della richiesta, condividere un'ipotesi di lavoro e valutare insieme se proseguire."
+		},
+		{
+			"title": "Qual è la differenza tra psicoterapia e neurofeedback?",
+			"description": "La psicoterapia lavora sul significato dell'esperienza attraverso la relazione e la parola. Il neurofeedback è un addestramento non invasivo del sistema nervoso che insegna al cervello a regolare meglio i propri ritmi. Possono procedere separatamente o integrarsi."
+		},
+		{
+			"title": "Quanto dura un percorso?",
+			"description": "Non esiste una durata standard. Alcuni interventi sono brevi e focali (8–16 sedute), altri più estesi quando il lavoro tocca aree profonde dell'identità. Rivalutiamo insieme il percorso periodicamente."
+		},
+		{
+			"title": "Il neurofeedback ha controindicazioni?",
+			"description": "È una metodica sicura, indolore e non invasiva. Eventuali condizioni neurologiche specifiche vengono valutate in fase di colloquio preliminare per personalizzare il protocollo."
+		},
+		{
+			"title": "Le sedute sono coperte da detrazione fiscale?",
+			"description": "Sì. Le prestazioni psicologiche e psicoterapiche sono detraibili al 19% come spese sanitarie. Rilasciamo regolare fattura sanitaria elettronica."
+		},
+		{
+			"title": "Come tutelate la riservatezza?",
+			"description": "Siamo vincolati dal segreto professionale e dal codice deontologico dell'Ordine degli Psicologi. I dati sanitari sono trattati ai sensi del Reg. UE 2016/679 con misure tecniche e organizzative adeguate."
+		}
+	]
+}
