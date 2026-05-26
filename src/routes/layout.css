@@ -31,3 +31,32 @@
 .line {
 	@apply h-px w-full bg-[linear-gradient(90deg,transparent_0%,var(--gold)_50%,transparent_100%)] opacity-45;
 }
+
+/* mdsvex / markdown content styles */
+@layer components {
+	.md-content {
+		@apply prose prose-lg max-w-none text-charcoal;
+	}
+
+	.md-content h1,
+	.md-content h2,
+	.md-content h3 {
+		@apply font-serif text-charcoal;
+	}
+
+	.md-content p {
+		@apply leading-relaxed text-charcoal/80;
+	}
+
+	.md-content a {
+		@apply text-gold hover:underline;
+	}
+
+	.md-content img {
+		@apply rounded-md;
+	}
+
+	.md-content pre {
+		@apply overflow-x-auto rounded-md bg-charcoal/5 p-4;
+	}
+}

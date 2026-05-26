@@ -1,0 +1,92 @@
+# Cookie Policy
+
+Ultimo aggiornamento: 26 maggio 2026
+
+La presente Cookie Policy descrive l’utilizzo di cookie e tecnologie simili sul sito web di IntegroLisi.
+
+---
+
+## 1. Cosa sono i cookie
+
+I cookie sono piccoli file di testo che i siti web possono salvare sul dispositivo dell’utente durante la navigazione.
+
+Possono essere utilizzati per:
+
+- finalità tecniche;
+- analisi statistiche;
+- personalizzazione;
+- profilazione pubblicitaria.
+
+---
+
+## 2. Cookie utilizzati dal sito
+
+Il sito NON utilizza:
+
+- cookie di profilazione;
+- cookie pubblicitari;
+- cookie di tracciamento invasivo;
+- strumenti di fingerprinting.
+
+---
+
+## 3. Analytics privacy-friendly
+
+Il sito utilizza Simple Analytics per raccogliere statistiche aggregate e anonimizzate sulle visite.
+
+Simple Analytics:
+
+- non utilizza cookie;
+- non utilizza fingerprinting;
+- non identifica gli utenti;
+- raccoglie esclusivamente dati aggregati.
+
+Per questo motivo, ai sensi della normativa vigente e delle indicazioni del Garante Privacy, non è richiesto il consenso preventivo tramite cookie banner per tale servizio.
+
+Maggiori informazioni:
+https://simpleanalytics.com/privacy
+
+---
+
+## 4. Servizi di terze parti
+
+## 4.1 Google Maps
+
+Il sito incorpora Google Maps tramite iframe.
+
+Google potrebbe installare cookie tecnici o raccogliere dati tecnici relativi all’interazione con la mappa incorporata.
+
+Privacy Policy Google:
+https://policies.google.com/privacy
+
+---
+
+## 4.2 Cloudflare
+
+Cloudflare può utilizzare cookie tecnici strettamente necessari per:
+
+- sicurezza;
+- protezione anti-bot;
+- distribuzione dei contenuti;
+- ottimizzazione delle prestazioni.
+
+Tali cookie rientrano generalmente tra quelli tecnici necessari.
+
+Privacy Policy:
+https://www.cloudflare.com/privacypolicy/
+
+---
+
+## 5. Gestione dei cookie
+
+L’utente può gestire o disabilitare i cookie direttamente dalle impostazioni del proprio browser.
+
+La disabilitazione dei cookie tecnici potrebbe compromettere il corretto funzionamento di alcune funzionalità del sito.
+
+---
+
+## 6. Modifiche alla Cookie Policy
+
+Il Titolare si riserva il diritto di modificare la presente Cookie Policy in qualsiasi momento.
+
+Gli utenti sono invitati a consultare periodicamente questa pagina.

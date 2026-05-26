@@ -1,0 +1,226 @@
+# Privacy Policy
+
+Ultimo aggiornamento: 26 maggio 2026
+
+Il presente documento descrive le modalità di trattamento dei dati personali degli utenti che visitano il sito web di IntegroLisi, in conformità al Regolamento (UE) 2016/679 ("GDPR"), al D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018 e alle disposizioni del Garante per la protezione dei dati personali.
+
+## 1. Titolare del trattamento
+
+Il Titolare del trattamento è:
+
+**Aurora Lisi**
+Studio di psicoterapia e neurofeedback
+Via Musinè, 14
+10045 Piossasco (TO) – Italia
+
+PEC: aurora.lisi.391@psypec.it
+Email: privacy@integrolisi.it
+
+---
+
+## 2. Tipologie di dati trattati
+
+Il sito è progettato per minimizzare la raccolta dei dati personali.
+
+### 2.1 Dati di navigazione
+
+Durante la normale navigazione del sito, alcuni dati tecnici possono essere trattati da fornitori terzi coinvolti nell'erogazione del servizio, tra cui:
+
+- indirizzo IP;
+- informazioni sul browser e dispositivo;
+- dati tecnici di connessione;
+- informazioni aggregate sulle visite.
+
+Tali dati vengono trattati esclusivamente per finalità tecniche, di sicurezza e di funzionamento del sito.
+
+---
+
+### 2.2 Dati inseriti volontariamente dall’utente
+
+Il sito mette a disposizione un modulo di contatto che reindirizza l’utente a WhatsApp.
+
+I dati eventualmente inseriti dall’utente possono includere:
+
+- nome e cognome;
+- motivo del contatto;
+- contenuto del messaggio.
+
+Tali dati NON vengono memorizzati dal sito web né transitano attraverso server gestiti dal Titolare.
+
+Al momento dell’invio, l’utente viene reindirizzato direttamente alla piattaforma WhatsApp tramite URL precompilato.
+
+---
+
+## 3. Finalità e base giuridica del trattamento
+
+I dati personali sono trattati per le seguenti finalità:
+
+| Finalità                                                      | Base giuridica                                                                   |
+| ------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Funzionamento tecnico e sicurezza del sito                    | Legittimo interesse del Titolare (art. 6, par. 1, lett. f GDPR)                  |
+| Analisi statistiche aggregate e anonimizzate                  | Legittimo interesse (art. 6, par. 1, lett. f GDPR)                               |
+| Gestione delle richieste di contatto inviate tramite WhatsApp | Misure precontrattuali richieste dall’interessato (art. 6, par. 1, lett. b GDPR) |
+
+---
+
+## 4. Modalità del trattamento
+
+Il trattamento avviene mediante strumenti elettronici e telematici nel rispetto dei principi di:
+
+- liceità;
+- correttezza;
+- trasparenza;
+- minimizzazione dei dati;
+- integrità e riservatezza.
+
+Il sito non effettua profilazione degli utenti.
+
+---
+
+## 5. Servizi terzi utilizzati
+
+## 5.1 Cloudflare
+
+Il sito utilizza i servizi di Cloudflare, Inc. come proxy e provider DNS/CDN per migliorare sicurezza, prestazioni e disponibilità del sito.
+
+Cloudflare può trattare dati tecnici di connessione, inclusi indirizzi IP, per finalità di sicurezza e distribuzione dei contenuti.
+
+Provider:
+Cloudflare, Inc.
+101 Townsend St, San Francisco, CA 94107, USA
+
+Privacy Policy:
+https://www.cloudflare.com/privacypolicy/
+
+---
+
+## 5.2 GitHub Pages
+
+Il sito è ospitato tramite GitHub Pages, servizio fornito da GitHub Inc.
+
+GitHub può trattare dati tecnici necessari all’erogazione del servizio di hosting.
+
+Provider:
+GitHub, Inc.
+88 Colin P Kelly Jr St
+San Francisco, CA 94107, USA
+
+Privacy Policy:
+https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
+
+---
+
+## 5.3 WhatsApp
+
+Il modulo di contatto presente sul sito reindirizza l’utente verso WhatsApp tramite collegamento precompilato.
+
+L’utilizzo di WhatsApp comporta il trattamento dei dati da parte di WhatsApp LLC / Meta Platforms.
+
+I dati inseriti nel modulo vengono trasferiti direttamente dall’utente a WhatsApp e non vengono memorizzati dal sito.
+
+Provider:
+WhatsApp Ireland Limited
+
+Privacy Policy:
+https://www.whatsapp.com/legal/privacy-policy-eea
+
+---
+
+## 5.4 Simple Analytics
+
+Il sito utilizza Simple Analytics per raccogliere statistiche aggregate e anonimizzate sulle visite.
+
+Simple Analytics non utilizza:
+
+- cookie;
+- fingerprinting;
+- tecnologie invasive di tracciamento.
+
+Le informazioni raccolte sono aggregate e non consentono l’identificazione personale degli utenti.
+
+Provider:
+Simple Analytics B.V.
+
+Privacy Policy:
+https://simpleanalytics.com/privacy
+
+---
+
+## 5.5 Google Maps
+
+Il sito incorpora una mappa tramite iframe di Google Maps.
+
+L’interazione con la mappa può comportare il trattamento di dati da parte di Google, inclusi:
+
+- indirizzo IP;
+- dati di localizzazione;
+- informazioni tecniche sul dispositivo.
+
+Provider:
+Google Ireland Limited
+
+Privacy Policy:
+https://policies.google.com/privacy
+
+---
+
+## 6. Trasferimento di dati verso Paesi extra UE
+
+Alcuni fornitori di servizi utilizzati dal sito potrebbero trasferire dati personali verso Paesi situati al di fuori dello Spazio Economico Europeo, inclusi gli Stati Uniti.
+
+Tali trasferimenti avvengono nel rispetto degli artt. 44 e seguenti del GDPR mediante:
+
+- decisioni di adeguatezza;
+- Clausole Contrattuali Standard (SCC);
+- ulteriori misure di sicurezza previste dai fornitori.
+
+---
+
+## 7. Conservazione dei dati
+
+Il sito non conserva direttamente dati personali degli utenti.
+
+Eventuali dati trattati da servizi terzi sono conservati secondo le rispettive policy di conservazione.
+
+---
+
+## 8. Natura del conferimento dei dati
+
+Il conferimento dei dati tramite WhatsApp è facoltativo.
+
+L’eventuale mancato conferimento può comportare l’impossibilità di inviare richieste di contatto.
+
+---
+
+## 9. Diritti dell’interessato
+
+Gli utenti possono esercitare i diritti previsti dagli artt. 15-22 del GDPR, tra cui:
+
+- accesso ai dati;
+- rettifica;
+- cancellazione;
+- limitazione del trattamento;
+- opposizione;
+- portabilità dei dati;
+- revoca del consenso ove applicabile;
+- reclamo al Garante per la protezione dei dati personali.
+
+Le richieste possono essere inviate a:
+
+privacy@integrolisi.it
+
+---
+
+## 10. Reclamo all’Autorità Garante
+
+Gli utenti hanno diritto di proporre reclamo presso il Garante per la protezione dei dati personali:
+
+https://www.garanteprivacy.it/
+
+---
+
+## 11. Modifiche alla presente informativa
+
+Il Titolare si riserva il diritto di aggiornare la presente Privacy Policy in qualsiasi momento.
+
+Gli utenti sono invitati a consultare periodicamente questa pagina.
