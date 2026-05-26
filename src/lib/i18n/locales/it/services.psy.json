@@ -1,0 +1,122 @@
+{
+	"seo": {
+		"title": "Psicoterapia",
+		"description": "Scopri i nostri servizi di psicoterapia individuale per affrontare difficoltà emotive, relazionali e comportamentali. Contattaci per una consulenza personalizzata."
+	},
+	"hero": {
+		"tagline": "Psicoterapia",
+		"title": "La terapia non ti cambia in qualcun altro. <span class=\"text-gold\">Ti aiuta a tornare più libero, più lucido, più stabile.</span>",
+		"description": "La psicoterapia è uno spazio protetto in cui capire cosa ti sta facendo soffrire, riconoscere i meccanismi che mantengono il disagio e costruire cambiamenti concreti. Non è un interrogatorio né un giudizio: è un lavoro condiviso, serio e umano, orientato al sollievo e alla consapevolezza.",
+		"ctas": ["Prenota un primo colloquio", "Torna ai servizi"],
+		"cardGroup": {
+			"title": "Cosa aspettarti",
+			"bullets": [
+				{
+					"title": "Un colloquio chiaro e accogliente",
+					"description": "Si parte da ciò che senti adesso, senza dover “sapere già tutto” o raccontare perfettamente la tua storia."
+				},
+				{
+					"title": "Obiettivi condivisi",
+					"description": "Capiremo insieme dove vuoi arrivare, quali ostacoli affrontare e quali strumenti usare lungo il percorso."
+				},
+				{
+					"title": "Un percorso che rispetta i tuoi tempi",
+					"description": "La terapia è efficace quando si costruisce con continuità, ma senza forzature inutili o aspettative irrealistiche."
+				}
+			]
+		}
+	},
+	"stepsSection": {
+		"heading": "Come funziona la psicoterapia",
+		"description": "Il percorso parte dall’ascolto e procede con un lavoro progressivo: comprendere, nominare, regolare, sperimentare e consolidare. Ogni seduta ha un senso dentro una cornice più ampia, così da aiutarti a vedere collegamenti che da solo possono sfuggire."
+	},
+	"steps": [
+		{
+			"title": "1. Il primo colloquio chiarisce il punto di partenza",
+			"description": "Il primo incontro serve a capire cosa stai vivendo, quali sono le difficoltà principali e quale obiettivo senti davvero tuo."
+		},
+		{
+			"title": "2. Si costruisce un metodo su misura",
+			"description": "Non esiste un percorso identico per tutti. La terapia viene adattata alla tua storia, al tuo ritmo e alle tue esigenze."
+		},
+		{
+			"title": "3. Si lavora su pensieri, emozioni e comportamenti",
+			"description": "In seduta si osservano i meccanismi che mantengono il disagio e si sperimentano nuove modalità per affrontare stress, relazioni e momenti difficili."
+		},
+		{
+			"title": "4. I cambiamenti si consolidano nella vita quotidiana",
+			"description": "Ciò che emerge in studio viene tradotto in strumenti pratici da portare nella vita reale, così da rendere il cambiamento più stabile."
+		}
+	],
+	"supportSection": {
+		"heading": "Quando può essere utile",
+		"description": "Non serve “stare malissimo” per iniziare"
+	},
+	"reasons": [
+		"ansia ricorrente o attacchi di panico",
+		"blocco emotivo, tristezza o demotivazione",
+		"difficoltà nelle relazioni o nei confini personali",
+		"sovraccarico, burnout o stress prolungato",
+		"pensieri ripetitivi che non ti lasciano tregua",
+		"bisogno di capire meglio ciò che senti e perché"
+	],
+	"supportAreasSection": {
+		"heading": "Aree di lavoro",
+		"description": "Dove la psicoterapia può portare più chiarezza e sollievo"
+	},
+	"supportAreas": [
+		{
+			"title": "Ansia e panico",
+			"description": "Imparare a riconoscere i segnali, ridurre l’evitamento e costruire più sicurezza nei momenti attivanti."
+		},
+		{
+			"title": "Umore e blocco emotivo",
+			"description": "Lavorare su tristezza, stanchezza, demotivazione e difficoltà a ritrovare slancio."
+		},
+		{
+			"title": "Relazioni e confini",
+			"description": "Capire schemi ricorrenti, migliorare la comunicazione e sentirsi più liberi nelle relazioni."
+		},
+		{
+			"title": "Stress e burnout",
+			"description": "Ridurre il sovraccarico, dare un senso alla fatica e recuperare un ritmo più sostenibile."
+		},
+		{
+			"title": "Pensieri ripetitivi",
+			"description": "Interrompere i circoli mentali che alimentano preoccupazione, autocritica o blocco decisionale."
+		},
+		{
+			"title": "Consapevolezza e cambiamento",
+			"description": "Capire meglio cosa senti e trasformare questa chiarezza in scelte più coerenti con te."
+		}
+	],
+	"doubtsSection": {
+		"heading": "Dubbi comuni",
+		"description": "Risposte chiare alle domande che frenano spesso l’inizio",
+		"openLabel": "Apri"
+	},
+	"doubts": [
+		{
+			"title": "E se non riuscissi a parlare?",
+			"description": "È una preoccupazione molto comune. Non devi arrivare con le parole giuste: il colloquio è guidato e puoi partire anche da pochi elementi, con i tuoi tempi."
+		},
+		{
+			"title": "Devo avere un problema “grave” per iniziare?",
+			"description": "No. La psicoterapia è utile anche quando senti confusione, stanchezza, blocco decisionale, difficoltà relazionali o il bisogno di capire meglio te stesso."
+		},
+		{
+			"title": "Quanto tempo ci vuole per stare meglio?",
+			"description": "Non esiste una durata standard. Alcuni obiettivi richiedono pochi mesi, altri un lavoro più profondo. Il percorso viene sempre condiviso e monitorato."
+		},
+		{
+			"title": "La terapia mi cambierà troppo?",
+			"description": "L’obiettivo non è trasformarti in qualcun altro, ma aiutarti a stare meglio restando più fedele a te stesso, con più chiarezza e più libertà di scelta."
+		}
+	],
+	"finalCta": {
+		"tagline": "Inizia da qui",
+		"title": "Se senti che è il momento, un primo colloquio può già togliere molta incertezza.",
+		"description": "Non devi sapere in anticipo quale sarà il percorso perfetto. Basta iniziare con un incontro conoscitivo per capire se c’è affinità, chiarezza e una direzione utile per te.",
+		"label": "Prenota il colloquio"
+	}
+}

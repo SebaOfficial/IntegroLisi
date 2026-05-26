@@ -1,0 +1,122 @@
+{
+	"seo": {
+		"title": "Neurofeedback",
+		"description": "Scopri i nostri servizi di neurofeedback per affrontare difficoltà emotive, relazionali e comportamentali. Contattaci per una consulenza personalizzata."
+	},
+	"hero": {
+		"tagline": "Neurofeedback",
+		"title": "Un training semplice, non invasivo, che aiuta il cervello a <span class=\"text-gold\">ritrovare più equilibrio, focus e flessibilità.</span>",
+		"description": "Il neurofeedback è un percorso di brain training che restituisce al sistema nervoso informazioni in tempo reale sulla propria attività. Non richiede sforzo cosciente, non è invasivo e non impone protocolli rigidi: crea le condizioni perché il cervello possa autoregolarsi in modo più naturale.",
+		"ctas": ["Prenota una consulenza", "Torna ai servizi"],
+		"cardGroup": {
+			"title": "Perché piace a molte persone",
+			"bullets": [
+				{
+					"title": "Nessuno sforzo attivo",
+					"description": "La sessione è semplice: ti siedi, ascolti, lasci che il sistema lavori e osservi come reagisce il tuo cervello."
+				},
+				{
+					"title": "Approccio dinamico",
+					"description": "Il feedback è continuo e adattivo: il cervello riceve indicazioni utili per riorganizzarsi da sé."
+				},
+				{
+					"title": "Percorso personalizzabile",
+					"description": "Si parte da obiettivi concreti, ma il modo in cui il percorso si sviluppa resta unico per ogni persona."
+				}
+			]
+		}
+	},
+	"stepsSection": {
+		"heading": "Come funziona il neurofeedback",
+		"description": "L'obiettivo non è forzare il cervello dentro uno schema, ma offrirgli un ritorno informativo costante mentre lavora. Questo rende il training adatto a chi vuole un approccio pratico, non invasivo e orientato alla regolazione naturale."
+	},
+	"steps": [
+		{
+			"title": "1. La seduta è semplice e non richiede sforzo attivo",
+			"description": "Durante la sessione ti siedi comodamente mentre il sistema registra l’attività cerebrale e restituisce un feedback in tempo reale."
+		},
+		{
+			"title": "2. Il cervello riceve informazioni e si autoregola",
+			"description": "Il neurofeedback non impone un protocollo rigido: offre al cervello segnali utili per riconoscere schemi abituali e riorganizzarsi in modo più flessibile."
+		},
+		{
+			"title": "3. Ogni esperienza è unica",
+			"description": "Le reazioni possono variare da persona a persona e da seduta a seduta. Il percorso è personalizzato e procede con continuità, senza forzature."
+		},
+		{
+			"title": "4. I benefici emergono nella vita quotidiana",
+			"description": "Molte persone cercano più focus, più calma, migliori routine di sonno o maggiore resilienza nelle giornate impegnative."
+		}
+	],
+	"supportSection": {
+		"heading": "Più presenza, meno attrito interno",
+		"description": "Molte persone scelgono il neurofeedback quando vogliono sentirsi più stabili, lucide e pronte ad affrontare la giornata."
+	},
+	"reasons": [
+		"fa fatica a mantenere il focus nei momenti importanti",
+		"si sente spesso sotto pressione o mentalmente sovraccarico",
+		"ha bisogno di ritrovare più equilibrio nelle giornate intense",
+		"vuole supportare sonno, recupero e routine più regolari",
+		"cerca uno strumento non invasivo, semplice e personalizzabile",
+		"vuole lavorare su resilienza, performance e chiarezza mentale"
+	],
+	"supportAreasSection": {
+		"heading": "Aree di supporto",
+		"description": "Dove molte persone notano il maggiore valore del training"
+	},
+	"supportAreas": [
+		{
+			"title": "Focus e chiarezza mentale",
+			"description": "Supporta la capacità di restare presenti, organizzati e più stabili quando servono attenzione e continuità."
+		},
+		{
+			"title": "Stress ed equilibrio emotivo",
+			"description": "Aiuta a uscire da schemi di tensione o iperattivazione, favorendo una risposta più calma e centrata."
+		},
+		{
+			"title": "Resto notturno e recupero",
+			"description": "Può sostenere routine più regolari e una sensazione di maggiore recupero tra una giornata e l’altra."
+		},
+		{
+			"title": "Prestazione e continuità",
+			"description": "Per studio, lavoro o sport, molte persone cercano più fluidità mentale e meno interferenze da distrazioni e sovraccarico."
+		},
+		{
+			"title": "Tutte le età e i ritmi di vita",
+			"description": "Il neurofeedback è non invasivo e si adatta a esigenze diverse, dall’adolescenza all’età adulta."
+		},
+		{
+			"title": "Benessere mentale nel lungo periodo",
+			"description": "È una pratica orientata alla flessibilità e alla regolazione, con un approccio che si inserisce nella quotidianità."
+		}
+	],
+	"doubtsSection": {
+		"heading": "Dubbi comuni",
+		"description": "Risposte semplici per capire se fa per te",
+		"openLabel": "Apri"
+	},
+	"doubts": [
+		{
+			"title": "Devo concentrarmi o fare qualcosa di speciale?",
+			"description": "No. La sessione è pensata per essere passiva e naturale: tu stai seduto, il sistema lavora e il cervello riceve informazioni utili."
+		},
+		{
+			"title": "È un trattamento medico?",
+			"description": "No: è un percorso di brain training e autoregolazione. Non sostituisce cure mediche o valutazioni cliniche quando servono."
+		},
+		{
+			"title": "Quando si notano i cambiamenti?",
+			"description": "Le risposte sono personali. Alcuni percepiscono differenze graduali, altri notano effetti più sottili o distribuiti nel tempo."
+		},
+		{
+			"title": "Serve avere un obiettivo preciso?",
+			"description": "Aiuta sapere cosa vuoi migliorare, ma non è obbligatorio essere già “definiti”. Possiamo costruire insieme una direzione chiara."
+		}
+	],
+	"finalCta": {
+		"tagline": "Inizia da qui",
+		"title": "Se cerchi uno strumento pratico, semplice e non invasivo, il primo passo può essere una consulenza.",
+		"description": "Possiamo capire insieme se il neurofeedback è adatto ai tuoi obiettivi e quale percorso può sostenere meglio il tuo benessere.",
+		"label": "Prenota la consulenza"
+	}
+}

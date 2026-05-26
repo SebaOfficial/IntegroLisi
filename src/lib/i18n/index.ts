@@ -46,6 +46,18 @@ const config: Config = {
 			routes: ['/ambiti-intervento/'],
 			loader: async () => (await import('./locales/it/services.json')).default,
 		},
+		{
+			locale: 'it',
+			key: 'services.psy',
+			routes: ['/ambiti-intervento/psicoterapia'],
+			loader: async () => (await import('./locales/it/services.psy.json')).default,
+		},
+		{
+			locale: 'it',
+			key: 'services.nf',
+			routes: ['/ambiti-intervento/neurofeedback'],
+			loader: async () => (await import('./locales/it/services.nf.json')).default,
+		},
 	],
 	preprocess: 'preserveArrays',
 };
@@ -62,6 +74,10 @@ export const pathnameToKey = (pathname: string) => {
 			return 'faq';
 		case '/ambiti-intervento/':
 			return 'services';
+		case '/ambiti-intervento/psicoterapia':
+			return 'services.psy';
+		case '/ambiti-intervento/neurofeedback':
+			return 'services.nf';
 		default:
 			return pathname.slice(1).replace(/\//g, '-');
 	}
