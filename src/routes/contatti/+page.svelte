@@ -67,19 +67,20 @@
 	});
 
 	const onsubmit = (data: Record<string, string>) => {
-		if (!data.reason || !data.message) {
+		const normalizedPhone = config.phone.replace(/\D/g, '');
+		if (!data.reason || !data.message || normalizedPhone.length < 7) {
 			return;
 		}
 
-		const url = new URL(`https://wa.me/${config.phone.replaceAll(' ', '')}`);
-		url.searchParams.set(
-			'text',
-			$t(`contacts.form.reasons.${data.reason}.template`, {
-				name: data.name,
-				message: data.message,
-				// eslint-disable-next-line @typescript-eslint/no-explicit-any
-			} as any),
-		);
+		const url = new URL(`https://wa.me/${normalizedPhone}`);
+
+		const message = $t(`contacts.form.reasons.${data.reason}.template`, {
+			name: data.name ?? '',
+			message: data.message ?? '',
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
+		} as any);
+
+		url.searchParams.set('text', message);
 		window.location.href = url.href;
 	};
 </script>

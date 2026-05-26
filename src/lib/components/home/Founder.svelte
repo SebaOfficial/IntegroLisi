@@ -60,7 +60,7 @@
 				</div>
 			</div>
 			<a
-				href={resolve('/about')}
+				href={resolve('/contatti')}
 				class="mt-8 inline-flex items-center gap-2 text-xs font-medium tracking-widest text-charcoal uppercase transition-colors hover:text-gold"
 			>
 				{$t('home.founder.more')} →

@@ -2,11 +2,29 @@ import config from '$lib/config';
 
 export const prerender = true;
 
-// TODO: add urls
+const PAGES = {
+	'/': '2026-05-26',
+	'/contatti': '2026-05-26',
+	'/faq': '2026-05-26',
+	'/privacy-policy': '2026-05-26',
+	'/cookie-policy': '2026-05-26',
+	'/ambiti-intervento/': '2026-05-26',
+};
 
-export const GET = async () =>
-	new Response(
-		`
+const urls = Object.entries(PAGES)
+	.map(([path, lastmod]) => {
+		const priority = path === '/' ? '1' : '0.7';
+		return `
+<url>
+	<loc>${config.baseUrl}${path}</loc>
+	<lastmod>${lastmod}</lastmod>
+	<priority>${priority}</priority>
+</url>`.trim();
+	})
+	.join('\n');
+
+export const GET = async () => {
+	const body = `
 <?xml version="1.0" encoding="UTF-8" ?>
 <urlset
 	xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
@@ -16,17 +34,13 @@ export const GET = async () =>
 	xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
 	xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
 >
-	<url>
-		<loc>${config.baseUrl}/</loc>
-		<lastmod>2026-05-25</lastmod>
-		<priority>1</priority>
-	</url>
-	</url>
+${urls}
 </urlset>
-`.trim(),
-		{
-			headers: {
-				'Content-Type': 'application/xml',
-			},
+`.trim();
+
+	return new Response(body, {
+		headers: {
+			'Content-Type': 'application/xml',
 		},
-	);
+	});
+};
