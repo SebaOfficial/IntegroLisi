@@ -2,7 +2,7 @@ const config = {
 	baseUrl: 'https://integrolisi.it',
 	pec: 'aurora.lisi.391@psypec.it',
 	email: 'studio@integrolisi.it',
-	phone: '+39 335 684735',
+	phone: '+39 335 6846735',
 	address: 'Via Musinè, 14, 10045 Piossasco TO',
 	addressInfo: {
 		street: 'Via Musinè, 14',

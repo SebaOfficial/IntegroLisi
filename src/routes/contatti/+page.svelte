@@ -7,6 +7,7 @@
 	import Info from '$lib/components/contacts/Info.svelte';
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
+	import { replaceState } from '$app/navigation';
 
 	const reasons = ['general', 'appointment', 'partnership', 'other'] as const;
 	type Reason = (typeof reasons)[number];
@@ -49,13 +50,14 @@
 	]);
 
 	const updateReason = (value: Reason) => {
+		console.log('Updating reason to', reason, value);
 		reason = value;
 
 		if (!browser) return;
-
 		const url = new URL(window.location.href);
 		url.searchParams.set('reason', value);
-		window.history.replaceState(null, '', url);
+		// eslint-disable-next-line svelte/no-navigation-without-resolve
+		replaceState(url, '');
 	};
 
 	onMount(() => {
@@ -89,7 +91,7 @@
 	<div class="mx-auto max-w-6xl">
 		<Hero />
 		<div class="grid gap-12 lg:grid-cols-5">
-			<Form {onsubmit} bind:inputs onChange={(_, value) => updateReason(value as Reason)} />
+			<Form {onsubmit} {inputs} onChange={(_, value) => updateReason(value as Reason)} />
 			<Info />
 		</div>
 	</div>

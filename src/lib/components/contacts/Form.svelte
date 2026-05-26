@@ -9,7 +9,7 @@
 		onChange?: (name: string, value: string) => void;
 	};
 
-	const { onsubmit, onChange, inputs = $bindable() }: Props = $props();
+	const { onsubmit, onChange, inputs }: Props = $props();
 
 	let inputsData: Record<string, string> = $state({});
 
@@ -54,14 +54,14 @@
 			{:else if input.type == 'selection'}
 				<select
 					bind:value={inputsData[input.name]}
-					onchange={(event) => onChange?.(input.name, event.currentTarget.value)}
+					onchange={(_) => onChange?.(input.name, inputsData[input.name])}
 					name={input.name}
 					id={input.name}
 					required={input.required}
 					class="w-full rounded-xl border border-charcoal/15 bg-ivory px-4 py-3 text-sm focus:border-gold focus:outline-none"
 				>
 					{#each input.options as option (option.value)}
-						<option value={option.value}>
+						<option value={option.value} selected={option.value === input.selected}>
 							{option.label}
 						</option>
 					{/each}
