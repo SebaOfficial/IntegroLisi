@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-background: #fbfaf7;
+	--color-background-secondary: #f2eee8;
+	--color-on-background: oklch(31% 0.005 60);
+	--color-gold: oklch(74% 0.085 80);
+}
+
+html {
+	@apply scroll-smooth bg-background-secondary;
+}
+
+body {
+	@apply bg-background text-on-background;
+}
+
+b {
+	@apply font-medium text-gold;
+}
+
+a:not(.no-style) {
+	@apply transition-colors hover:text-gold;
+}
